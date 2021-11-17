@@ -30,11 +30,15 @@ P {
     width: 100%;
     padding: 10px;
     border: solid 1px white;
+    border-radius: 3px;
     text-align: center;
 }
 
 .template p:hover {
     background-color: #FCEF57;
+    color: black;
+    border-color: #FCEF57;
+    border-radius: unset;
 }
 
 .milieu {
@@ -47,38 +51,131 @@ P {
     width: 100%;
 }
 
+.thinfo:hover img{
+        transform: scale(1.1) translateY(5px);
+        transition: 500ms;
+        
+}
 .imagetheme {
-    margin-top: -5%;
+    margin-top: 0%;
+    z-index: 1;
 }
 
 .thinfo {
     padding: 8px;
     display: flex;
+    border-radius: 2%;
 }
 
+
+
+
 #t1 {
-    flex: 100%;
+    position: relative;
     background: linear-gradient(#3db079, #7AC277, #C2D875);
 }
 
+#t1::after {
+    /* margin: 0%;
+    position: absolute;
+    content: "";
+    background: linear-gradient(#3db079, #7AC277, #C2D875);
+    background-color: #393e50;
+    border-radius: 1%;
+    width: 51.9%;
+    height: 25px;
+    rotate: 4deg;
+    top: -21px;
+    z-index: -1; */
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -15px;
+    width: 115%;
+    height: 60px;
+    background-color: #393E50;
+    transform: rotate(5deg);
+
+}
+
 #t2 {
+    position: relative;
     background: linear-gradient(#93dbaa, #7BCCC6, #66BEDE);
 }
 
+#t2::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -15px;
+    width: 115%;
+    height: 60px;
+    background-color: #393E50;
+    transform: rotate(5deg);
+}
+
 #t3 {
+    position: relative;
     background: linear-gradient(#fce25e, #FAB570, #F98D81);
 }
 
+#t3::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -15px;
+    width: 115%;
+    height: 60px;
+    background-color: #393E50;
+    transform: rotate(5deg);
+}
+
 #t4 {
+    position: relative;
     background: linear-gradient(#526296, #6282B6);
 }
 
+#t4::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -15px;
+    width: 115%;
+    height: 60px;
+    background-color: #393E50;
+    transform: rotate(5deg);
+}
+
 #t5 {
+    position: relative;
     background: linear-gradient(#f2a54a, #F6BF79);
 }
 
+#t5::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -15px;
+    width: 115%;
+    height: 60px;
+    background-color: #393E50;
+    transform: rotate(5deg);
+} 
+
 #t6 {
+    position: relative;
     background: linear-gradient(#434bbe, #59B0D0);
+}
+
+#t6::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -15px;
+    width: 115%;
+    height: 60px;
+    background-color: #393E50;
+    transform: rotate(5deg);
 }
 
 .infos {
