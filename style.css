@@ -7,10 +7,7 @@ body {
     height: 100vh;
     overflow: hidden;
     box-sizing: border-box;
-    background-color: #393e50;
-    background-image: url("images/landing-bg-pattern.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background: url("images/landing-bg-pattern.png") no-repeat bottom / contain #393e50;
 }
 
 P {
